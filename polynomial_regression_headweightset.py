@@ -9,7 +9,7 @@ import pandas as pd
 
 # Importing the dataset
 dataset = pd.read_csv('headweightset.csv')
-A = dataset.iloc[:, 2:-1].values
+A = dataset.iloc[:, 2:3].values
 B = dataset.iloc[:, -1].values
 
 # Splitting the dataset into the Training set and Test set
